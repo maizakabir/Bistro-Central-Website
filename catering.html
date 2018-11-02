@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bistro Central</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel= "stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+<!--Navbar-->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>  
+        <a class="navbar-brand" href="#">
+          <img src="https://scontent.fdac6-1.fna.fbcdn.net/v/t1.0-9/17021401_1116117575163564_5469556132411356333_n.jpg?_nc_cat=102&_nc_eui2=AeHYNu7w0BQLjKNlMOtzUmJIG5YdyE00okl98fZPabiScKCj2LIdbbkm-sREbiDo38rQbE0tlu_tYlR1Y0h7SGUGgb5L15qY9Z-JKJ802z6k-A&_nc_ht=scontent.fdac6-1.fna&oh=96de878136dd6d1a2972ee8564d63449&oe=5C7F50E3" width= "10px" height= "10px" alt= "Logo">
+        </a>
+      </button>
+      
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href= "index.html">ABOUT</a></li>
+        <li><a href="index.html">MENU</a></li>
+        <li><a href="index.html">SERVICES</a></li>
+        <li><a href="index.html">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class= "container text-center">
+<h1>CATERING</h1><br>
+  <p>Our catering services offer many meal combos. You can order each combo for 50 people.<br>
+  Order away!</p>
+  <!--Combo section-->
+  <div id= "cater" class= "container text-center">
+    <h2>Combo</h2>
+    <button id="showCartBtn" class="btn btn-success">Cart</button>
+    <hr class= "my-4">
+    <div id= "cater-items" class="row">
+    </div>
+  </div>
+  
+  <!--Cart section-->
+  <div id= "cart" class= "container text-center">
+    <h2>Cart</h2>
+    <button id= "hideCartBtn" class="btn btn-dark btn-sm">Close</button>
+    <hr class="my-4">
+    <div id="cart-row" class= "row">
+      </div>
+      <hr class="my-4">
+      <h4>Total: BDT <span id="total"></span>/-</h4>
+      <button  id= "orderBtn"class="btn" data-toggle="modal" data-target="#myModal">Order Now</button>
+    </div>
+</div>
+
+ <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">×</button>
+          <h4><span class="glyphicon glyphicon-shopping-cart"></span> Order Now</h4>
+        </div>
+        <div class="modal-body">
+          <form role="form">
+            <div class="form-group">
+              <label for="fullname"><span class="glyphicon glyphicon-user"></span> Full Name</label>
+              <input type="text" class="form-control" id="fullname" placeholder="Enter Name">
+            </div>
+            <div class="form-group">
+              <label for="phone"><span class="glyphicon glyphicon-phone"></span> Mobile Number</label>
+              <input type="number" class="form-control" id="phone" placeholder="Enter Mobile Number">
+            </div>
+            <div class="form-group">
+              <label for="email"><span class="glyphicon glyphicon-envelope"></span> Email Address</label>
+              <input type="text" class="form-control" id="email" placeholder="Enter Email">
+            </div>
+            <div class="form-group">
+              <label for="date"><span class="glyphicon glyphicon-time"></span> Date</label>
+              <input type="text" class="form-control" id="date" placeholder="Enter Date">
+            </div>
+            <div class="form-group">
+              <label for="address"><span class="glyphicon glyphicon-home"></span> Address</label>
+              <input type="text" class="form-control" id="address" placeholder="Enter Address">
+            </div>
+            
+              <button type="submit" class="btn btn-block" onclick= "alert('Order Confirmed!')" >Confirm Order 
+                <span class="glyphicon glyphicon-ok"></span>
+              </button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-danger btn-default pull-right" data-dismiss="modal">
+            <span class="glyphicon glyphicon-remove"></span> Cancel
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--footer-->
+<footer class="text-center">
+  <a class="up-arrow" href="#myPage">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a><br><br>
+  <p>Address: 5 Mohakhali C/A, Paragon House, 1st Floor</p>
+  <p>Dhaka, Bangladesh</p>
+  <p>Open: 12:00 PM-8:00 PM</p>
+  <p>Call: 01844-160444</p>
+</footer>
+
+<script src= "/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
