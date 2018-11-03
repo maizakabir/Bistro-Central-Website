@@ -5,7 +5,8 @@ Description: Bistro Central is the website for new bistro, Bistro Central, where
 
 Features:
 There is a home page and a catering page.
-The home page has "sections"-"about", "menu", "services", and "contact us":
+The home page has "sections"-"home", about", "menu", "services", and "contact us":
+"Home" takes you to the first part of the home page.
 
 ![image](https://user-images.githubusercontent.com/43327790/47950887-88955d00-df83-11e8-84de-f615afa2011b.png)
 ![image](https://user-images.githubusercontent.com/43327790/47950907-ce522580-df83-11e8-92df-be47794dbbeb.png)
@@ -35,7 +36,7 @@ At the end of the page, there is a footer with some information about the bistro
 ![image](https://user-images.githubusercontent.com/43327790/47951147-e5464700-df86-11e8-9540-76e0f5cf92c2.png)
 
 
-In the catering page, you have items (combos) that you can add to your cart.
+In the catering page, you have items (combos) that you can add to your cart, which is locally stored.
 ![image](https://user-images.githubusercontent.com/43327790/47951218-dad87d00-df87-11e8-8e92-fa37772735e2.png)
 ![image](https://user-images.githubusercontent.com/43327790/47951233-fd6a9600-df87-11e8-9632-c5e44bf6436f.png)
 ![image](https://user-images.githubusercontent.com/43327790/47951240-1410ed00-df88-11e8-9fe9-1f771ae02a54.png)
@@ -49,3 +50,13 @@ At the end of the cart section, you can click on the Order Now button to open a 
 ![image](https://user-images.githubusercontent.com/43327790/47951309-014ae800-df89-11e8-93da-ab8dddb1b5d5.png)
 
 When you click on the Confirm Order button, you will get an alert which says "Order Confirmed!". After clicking OK, you will be taken back to the catering page where you can add to the cart. If you click on Cancel or the cross, you will stay in the cart. If you click Close, you can go back to the combo section.
+From the catering page, you can go back to the home page by clicking on "home", "menu", "about", "services" or "contact".
+
+Both the home page and the catering page has the navbar at all times, even while scrolling.
+
+Technologies used:
+HTML
+CSS
+JavaScript
+JQuery
+Bootstrap
