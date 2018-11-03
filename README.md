@@ -6,7 +6,7 @@ Description: Bistro Central is the website for new bistro, Bistro Central, where
 
 Features:
 There is a home page and a catering page.
-The home page has "sections"-"home", about", "menu", "services", and "contact us":
+The home page has 5 sections-"home", about", "menu", "services", and "contact us":
 
 "Home" takes you to the first part of the home page.
 
@@ -52,8 +52,11 @@ After adding to your cart, you can click on the cart button to see your cart and
 At the end of the cart section, you can click on the Order Now button to open a Modal, where you give your details. You can click on the "Confirm Order" button, or the "Cancel" button, or the cross.
 ![image](https://user-images.githubusercontent.com/43327790/47952262-b1731d80-df96-11e8-8562-629c6f159090.png)
 
-When you click on the Confirm Order button, you will get an alert which says "Order Confirmed!". After clicking OK, you will be taken back to the catering page where you can add to the cart. If you click on Cancel or the cross, you will stay in the cart. If you click Close, you can go back to the combo section.
-From the catering page, you can go back to the home page by clicking on "home".
+When you click on the Confirm Order button, you will get an alert which says "Order Confirmed!".
+![image](https://user-images.githubusercontent.com/43327790/47955432-417a8c80-dfc2-11e8-9991-653bf768fca1.png)
+
+After clicking OK, you will be taken back to the catering page where you can add to the cart. If you click on Cancel or the cross, you will stay in the cart. If you click Close, you can go back to the combo section.
+From the catering page, you can go back to the home page by clicking on "home" on the navbar.
 
 Both the home page and the catering page has the navbar at all times, even while scrolling.
 
@@ -63,4 +66,4 @@ CSS
 JavaScript
 JQuery
 localStorage
-Bootstrap
+Bootstrap (Bootstrap theme)
