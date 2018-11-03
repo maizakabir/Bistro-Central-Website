@@ -1,11 +1,13 @@
-Bistro Central
-(Bistro Central is a real bistro, owned by a relative, whose permission I have to use these pictures and information.)
+BISTRO CENTRAL
+
+(DISCLAIMER: Bistro Central is a real bistro, owned by a relative, whose permission I have to use these pictures and information.)
 
 Description: Bistro Central is the website for new bistro, Bistro Central, where you can also order catering services.
 
 Features:
 There is a home page and a catering page.
 The home page has "sections"-"home", about", "menu", "services", and "contact us":
+
 "Home" takes you to the first part of the home page.
 
 ![image](https://user-images.githubusercontent.com/43327790/47950887-88955d00-df83-11e8-84de-f615afa2011b.png)
