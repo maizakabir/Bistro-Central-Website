@@ -61,4 +61,5 @@ HTML
 CSS
 JavaScript
 JQuery
+localStorage
 Bootstrap
