@@ -39,17 +39,18 @@ At the end of the page, there is a footer with some information about the bistro
 
 
 In the catering page, you have items (combos) that you can add to your cart, which is locally stored.
-![image](https://user-images.githubusercontent.com/43327790/47951218-dad87d00-df87-11e8-8e92-fa37772735e2.png)
-![image](https://user-images.githubusercontent.com/43327790/47951233-fd6a9600-df87-11e8-9632-c5e44bf6436f.png)
-![image](https://user-images.githubusercontent.com/43327790/47951240-1410ed00-df88-11e8-9fe9-1f771ae02a54.png)
+![image](https://user-images.githubusercontent.com/43327790/47952204-d31fd500-df95-11e8-9c30-0c395b7d5a13.png)
+![image](https://user-images.githubusercontent.com/43327790/47952220-04000a00-df96-11e8-8892-3fa6db90c167.png)
+![image](https://user-images.githubusercontent.com/43327790/47952225-23973280-df96-11e8-8486-bac6ba58782a.png)
 
 The catering page also has a footer with the same information as the home page and an arrow to take you to the top of the page. 
+
 After adding to your cart, you can click on the cart button to see your cart and the total price:
-![image](https://user-images.githubusercontent.com/43327790/47951256-66520e00-df88-11e8-9b06-0039b9567876.png)
-![image](https://user-images.githubusercontent.com/43327790/47951262-7a960b00-df88-11e8-936d-3be3a2186eec.png)
+![image](https://user-images.githubusercontent.com/43327790/47952245-6eb14580-df96-11e8-88b0-34f59429f635.png)
+![image](https://user-images.githubusercontent.com/43327790/47952248-85579c80-df96-11e8-830d-64d325187d5e.png)
 
 At the end of the cart section, you can click on the Order Now button to open a Modal, where you give your details. You can click on the "Confirm Order" button, or the "Cancel" button, or the cross.
-![image](https://user-images.githubusercontent.com/43327790/47951309-014ae800-df89-11e8-93da-ab8dddb1b5d5.png)
+![image](https://user-images.githubusercontent.com/43327790/47952262-b1731d80-df96-11e8-8562-629c6f159090.png)
 
 When you click on the Confirm Order button, you will get an alert which says "Order Confirmed!". After clicking OK, you will be taken back to the catering page where you can add to the cart. If you click on Cancel or the cross, you will stay in the cart. If you click Close, you can go back to the combo section.
 From the catering page, you can go back to the home page by clicking on "home", "menu", "about", "services" or "contact".
