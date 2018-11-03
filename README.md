@@ -53,7 +53,7 @@ At the end of the cart section, you can click on the Order Now button to open a 
 ![image](https://user-images.githubusercontent.com/43327790/47952262-b1731d80-df96-11e8-8562-629c6f159090.png)
 
 When you click on the Confirm Order button, you will get an alert which says "Order Confirmed!". After clicking OK, you will be taken back to the catering page where you can add to the cart. If you click on Cancel or the cross, you will stay in the cart. If you click Close, you can go back to the combo section.
-From the catering page, you can go back to the home page by clicking on "home", "menu", "about", "services" or "contact".
+From the catering page, you can go back to the home page by clicking on "home".
 
 Both the home page and the catering page has the navbar at all times, even while scrolling.
 
