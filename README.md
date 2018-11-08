@@ -35,7 +35,7 @@ The contact us section allows you to submit a form after giving your Name, Email
 ![image](https://user-images.githubusercontent.com/43327790/47951104-520d1180-df86-11e8-941c-b9c68b14c542.png)
 
 At the end of the page, there is a footer with some information about the bistro and a chevron-up glyphicon that takes you to the top of the page:
-![image](https://user-images.githubusercontent.com/43327790/47951147-e5464700-df86-11e8-9540-76e0f5cf92c2.png)
+![image](https://user-images.githubusercontent.com/43327790/48175324-b2f56a80-e335-11e8-9927-8cb6051e8b10.png)
 
 
 In the catering page, you have items (combos) that you can add to your cart, which is locally stored.
